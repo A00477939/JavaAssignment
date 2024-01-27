@@ -11,7 +11,8 @@ public class MD5CapitalizationProcessor {
         System.out.println("This program will take a string and capitalize it and generate MD5 Hex");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the input string");
-        String input = sc.nextLine();
+        //String input = sc.nextLine();
+        String input = "hritik";
         System.out.println("MD5 hash in hexadecimal format: " + GenerateMDshex(input));
         System.out.println("The capitalize string is " + GenerateCapital(input));
 
